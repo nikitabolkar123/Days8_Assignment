@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\bin\Debug\netcoreapp3.1\EmpWagesPblm.exe
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\bin\Debug\netcoreapp3.1\EmpWagesPblm.deps.json
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\bin\Debug\netcoreapp3.1\EmpWagesPblm.runtimeconfig.json
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\bin\Debug\netcoreapp3.1\EmpWagesPblm.runtimeconfig.dev.json
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\bin\Debug\netcoreapp3.1\EmpWagesPblm.dll
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\bin\Debug\netcoreapp3.1\EmpWagesPblm.pdb
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\obj\Debug\netcoreapp3.1\EmpWagesPblm.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\obj\Debug\netcoreapp3.1\EmpWagesPblm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\obj\Debug\netcoreapp3.1\EmpWagesPblm.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\obj\Debug\netcoreapp3.1\EmpWagesPblm.AssemblyInfo.cs
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\obj\Debug\netcoreapp3.1\EmpWagesPblm.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\obj\Debug\netcoreapp3.1\EmpWagesPblm.dll
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\obj\Debug\netcoreapp3.1\EmpWagesPblm.pdb
+C:\Users\hp\Desktop\New folder\EmpWagesPblm\EmpWagesPblm\obj\Debug\netcoreapp3.1\EmpWagesPblm.genruntimeconfig.cache
