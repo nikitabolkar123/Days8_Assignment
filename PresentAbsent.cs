@@ -1,43 +1,48 @@
 ﻿using System;
 
-namespace PartTimeWage
+namespace WageForMonth
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            EmpCheack emp = new EmpCheack();
+            EmpCheck emp = new EmpCheck();
             emp.EmpWage();
         }
     }
-
-    public class EmpCheack
+    public class EmpCheck
     {
-        int isPartTime = 1;
-        int isFullTime = 2;
-        int empRatePerHr = 20;
-        int empHr = 0;
-        int empWage = 0;
+        public const int isPartTime = 1;
+        public const int isFullTime = 2;
+        public const int empRatePerHr = 20;
+        public const int noOfWorkingDays = 2;
 
         public void EmpWage()
         {
-            Random random = new Random();
-            int empCheck = random.Next(0, 3);
-            if (empCheck == isPartTime)
+            int empHr = 0, empWage = 0, totalWage = 0;
+            for (int day = 0; day <= noOfWorkingDays; day++)
             {
-                empHr = 4;
+                Random random = new Random();
+                int empCheck = random.Next(0, 3);
+                switch (empCheck)
+                {
+                    case isPartTime:
+                        empHr = 4;
+                        break;
+                    case isFullTime:
+                        empHr = 8;
+                        break;
+                    default:
+                        empHr = 0;
+                        break;
+                }
+                empWage = empHr * empRatePerHr;
+                totalWage = totalWage + empWage;
+                Console.WriteLine("Emp Wage=" + empWage);
             }
-            else if (empCheck == isFullTime)
-            {
-                empHr = 8;
-            }
-            else
-            {
-                empHr = 0;
-            }
-            empWage = empHr * empRatePerHr;
-            Console.WriteLine("EmpWage=" + empWage);
+            Console.WriteLine("total Wage =" + totalWage);
         }
     }
-
 }
+
+
