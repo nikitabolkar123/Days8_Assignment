@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace EmpWagesPblm
+namespace DailyWage
 {
-    internal class PresentAbsent
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -14,21 +12,24 @@ namespace EmpWagesPblm
     }
     class Emp
     {
+        int wagePerHr = 20;
+        int wage = 0, empHr = 0;
         public void Atttendece()
         {
-            Random r = new Random();
-            int value = r.Next(0, 2);
-            // 0 is for present;
-            // 1 is for absent;
-            if (value == 0)
+            Random random = new Random();
+            int check = random.Next(0, 2);
+            if (check == 0)
             {
-                Console.WriteLine("Present");
+                empHr = 8;
             }
             else
             {
-                Console.WriteLine("Absent");
+                empHr = 0;
             }
+
+            wage = wagePerHr * empHr;
+            Console.WriteLine("Total Wage=" + wage);
+
         }
     }
 }
-   
